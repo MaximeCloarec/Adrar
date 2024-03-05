@@ -1,0 +1,37 @@
+git --version
+
+//afficher les fichiers
+ls
+
+//arrêter un (END)
+q  -ou Shift+q
+
+//afficher tous les commits qui ont été fait
+git log
+
+//remonter dans un dossier
+cd ..
+
+créer un fichier :
+touch nom_fichier.extension
+
+ajouter du contenu dans un fichier :
+echo texte>>nom_fichier.extension
+
+créer un répertoire :
+mkdir nom_dossier
+
+se déplacer dans un dossier :
+cd chemin ex cd base pour se déplacer dans le dossier base si il existe
+
+# echo avec des saut de ligne
+echo -e "Texte blablalal\n New text blalabnalal ">>nom_fichier.extension
+
+#remplacer le contenu de plusieurs fichiers
+echo -e "Hello word" | tee nom_fichier.extension nom_fichier2.extension
+
+#ajouter du contenu a la fin de plusieurs fichiers
+echo -e "Hello word" | tee -a nom_fichier.extension nom_fichier2.extension
+
+#afficher le contenu d'un fichier 
+cat nom_fichier.extension
