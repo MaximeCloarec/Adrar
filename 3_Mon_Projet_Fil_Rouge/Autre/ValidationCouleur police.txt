@@ -1,0 +1,10 @@
+Text #040316
+Background #ecf3e7
+Primaire #59d47a
+Secondaire #2f6040
+Accent #a35252
+
+Font 
+Heading Abril Fatface
+Body Lato
+Type scale 1.333
