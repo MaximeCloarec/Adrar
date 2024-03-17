@@ -1,7 +1,46 @@
-:root{
-    --main: grey
+@import url('https://fonts.googleapis.com/css?family=Abril%20Fatface:700|Lato:400');
+
+body {
+  font-family: 'Lato';
+  font-weight: 400;
 }
 
-body{
-    background-color: var(--main);
+h1, h2, h3, h4, h5 {
+  font-family: 'Abril Fatface';
+  font-weight: 700;
+}
+
+html {font-size: 100%;} /* 16px */
+
+h1 {font-size: 4.210rem; /* 67.36px */}
+
+h2 {font-size: 3.158rem; /* 50.56px */}
+
+h3 {font-size: 2.369rem; /* 37.92px */}
+
+h4 {font-size: 1.777rem; /* 28.48px */}
+
+h5 {font-size: 1.333rem; /* 21.28px */}
+
+small {font-size: 0.750rem; /* 12px */}
+
+
+:root[data-theme="light"] {
+  --text: #040316;
+  --background: #ecf3e7;
+  --primary: #59d47a;
+  --secondary: #2f6040;
+  --accent: #a35252;
+}
+:root[data-theme="dark"] {
+  --text: #eae9fc;
+  --background: #11180c;
+  --primary: #2ba64c;
+  --secondary: #9fd0b0;
+  --accent: #ad5c5c;
+}
+
+html {
+  background-color: var(--background);
+  color: var(--text);
 }

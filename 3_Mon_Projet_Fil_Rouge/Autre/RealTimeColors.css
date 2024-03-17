@@ -23,3 +23,19 @@ h4 {font-size: 1.777rem; /* 28.48px */}
 h5 {font-size: 1.333rem; /* 21.28px */}
 
 small {font-size: 0.750rem; /* 12px */}
+
+
+:root[data-theme="light"] {
+  --text: #040316;
+  --background: #ecf3e7;
+  --primary: #59d47a;
+  --secondary: #2f6040;
+  --accent: #a35252;
+}
+:root[data-theme="dark"] {
+  --text: #eae9fc;
+  --background: #11180c;
+  --primary: #2ba64c;
+  --secondary: #9fd0b0;
+  --accent: #ad5c5c;
+}
